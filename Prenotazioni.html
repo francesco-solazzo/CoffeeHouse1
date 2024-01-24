@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Prenotazioni Cofee House" />
+    <meta name="keywords" content="Cofee House, prenotazione tavoli, prenotazione eventi" />
+    <link rel="stylesheet" href="stile.css">
+
+    <title>Prenotazioni Cofee House</title>
+    <body style="background-color: rgba(237,233,221,1);">
+</head>
+<body>
+
+    <header>
+        <img src="img/logo.png" width="350" />
+        <h1>Coffee House</h1>
+        <p>Il caffè di casa</p>
+
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="Chi_Siamo.html">Chi siamo</a>
+        <a href="Contatti.html">Contatti</a>
+        <a href="Prenotazioni.html">Prenotazioni</a>
+    </nav>
+
+
+    <main>
+        <h1>Prenota Ora!!</h1>
+        <label for="scelta">Cosa desideri prenotare:</label><br /><br />
+
+        <label for="radio1">Tavolo</label>
+        <input type="radio" name="opzione" value="evento" />
+        <br />
+        <label for="radio2">Evento</label>
+        <input type="radio" name="opzione" value="tavolo" />
+        <br /><br />
+        <form>
+            <label for="nome">Nome:</label><br />
+            <input type="text" id="nome" name="text" required />
+
+            <label for="numeroOspiti">Numero di ospiti:</label>
+            <input type="number" id="numeroOspiti" name="numeroOspiti" required>
+
+            <label for="data">Data della prenotazione</label>
+            <input type="date" id="data" name="data" required />
+
+            <label for="ora">Ora della prenotazione</label>
+            <input type="time" id="ora" name="ora" required />
+
+            <br />
+            <input type="submit" value="Prenota Ora" />
+
+        </form>
+    </main>
+
+    <footer>
+
+        <p> &copy Copyright, 2024 CoffeHouse tutti i diritti riservati</p>
+
+    </footer>
+
+</body>
+</html>

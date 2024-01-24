@@ -1,0 +1,70 @@
+﻿
+header {
+    text-align: center;
+    padding: 50px;
+    color: #FFD580;
+    background: rgba(237,233,221,1);
+}
+
+nav {
+    text-align: center;
+    background: rgba(84,64,19,1);
+    padding: 10px;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+h1 {
+    color: rgba(84,64,19,1);
+}
+
+p {
+    color: rgba(84,64,19,1);
+}
+
+table {
+    margin-left: 190px;
+}
+
+    table img {
+        border-radius: 10px;
+    }
+
+h3 {
+    text-align: center;
+}
+
+footer p {
+    background: rgba(84,64,19,1);
+    color: white;
+}
+
+h2 {
+    color: rgba(84,64,19,1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
